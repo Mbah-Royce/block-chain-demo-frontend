@@ -1,7 +1,7 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div class="home d-flex justify-content-center">
+    <!-- <img alt="Vue logo" src="../assets/logo.png" /> -->
+    <HelloWorld msg="Welcome to Blockchain Demo " />
   </div>
 </template>
 
