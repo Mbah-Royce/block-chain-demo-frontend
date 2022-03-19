@@ -103,9 +103,9 @@
               <input type="text" class="form-control" :value="hash" disabled />
             </div>
           </div>
-          <div class="my-3">
+          <!-- <div class="my-3">
             <button type="submit" class="btn btn-primary">Mine</button>
-          </div>
+          </div> -->
         </form>
       </div>
     </div>
