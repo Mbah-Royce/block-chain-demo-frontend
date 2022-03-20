@@ -1,7 +1,7 @@
 <template>
   <div class="bar">
     <nav class="container navbar navbar-expand-lg bg-color navbar-fixed-top">
-      <a class="navbar-brand" href="#">Blockchain Demo</a>
+      <a class="navbar-brand" href="#">Blockchain Land Acquisition</a>
       <button
         class="navbar-toggler"
         type="button"

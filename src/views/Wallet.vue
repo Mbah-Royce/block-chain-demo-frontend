@@ -2,6 +2,7 @@
   <div class="row py-5">
     <div class="col-md-6 offset-md-3">
       <div>
+        <h3>Welcome</h3>
         <div>
           <h3>Wallet</h3>
           <hr />
