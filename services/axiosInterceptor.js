@@ -2,7 +2,7 @@ import axios from "axios";
 import store from "../src/store/index";
 import { GET_USER_TOKEN_GETTER } from '../src/store/storeConstants';
 const axiosInstance = axios.create({
-    baseURL: "http://127.0.0.1:8000/api/v1/",
+    baseURL: "https://block-chain-demo-backend.herokuapp.com/api/v1/",
     headers: {
         Accept: "application/json"
     }
