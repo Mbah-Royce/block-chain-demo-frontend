@@ -1,6 +1,6 @@
 <template>
   <div class="row py-5">
-    <div class="col-md-6 offset-md-3">
+    <div class="col-md-6 offset-md-3 border-design">
       <div>
         <div>
           <h3>Create Wallet</h3>

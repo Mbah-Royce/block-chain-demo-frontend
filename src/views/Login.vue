@@ -1,6 +1,6 @@
 <template>
   <div class="row py-5">
-    <div class="col-md-6 offset-md-3">
+    <div class="col-md-6 offset-md-3 border-design">
       <div>
         <div>
           <h3>Access Wallet</h3>
@@ -73,4 +73,11 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.border-design{
+  border: 2px black;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: white;
+  margin-left: 12%;
+}
+</style>
