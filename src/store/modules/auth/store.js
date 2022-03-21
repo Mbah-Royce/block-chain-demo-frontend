@@ -9,7 +9,8 @@ export default {
             user_id: "",
             prvKey: "",
             token: "",
-            area: ""
+            area: "",
+            name: ""
         };
     },
     mutations,

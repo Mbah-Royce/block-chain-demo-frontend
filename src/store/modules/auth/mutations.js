@@ -16,5 +16,6 @@ export default {
         state.prvKey = payload.prvKey;
         state.area = payload.area;
         state.user_id = payload.user_id;
+        state.name = payload.name
     }
 };

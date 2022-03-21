@@ -20,6 +20,7 @@ export default {
             state.prvKey,
             state.area,
             state.user_id,
+            state.name,
             state.token,
         ]
     }

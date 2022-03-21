@@ -1,5 +1,7 @@
 <template>
-  <h3>Ledger</h3>
+<center>
+  <h3 class="b1">LEDGER</h3>
+</center>
   <hr />
   <div class="" v-for="(block,index) of blocks" :key="block.index">
     <Block
@@ -99,4 +101,18 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.b1 {
+  border: 2px black;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: white;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+}</style>

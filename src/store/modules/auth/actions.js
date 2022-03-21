@@ -66,7 +66,8 @@ export default {
                         pubKey: response.data.data.publicKey,
                         user_id: response.data.data.id,
                         prvKey: response.data.data.privateKey,
-                        area: response.data.data.area
+                        area: response.data.data.area,
+                        name: response.data.data.name
                     };
                     let userToken = {
                         token: response.data.data.token
@@ -95,7 +96,7 @@ export default {
             email: payload.email,
             name: payload.name,
             publicKey: pubKey,
-            privateKey: prv
+            privateKey: prv,
         };
         await axiosInstance
             .post("user/register", postData)
@@ -105,7 +106,8 @@ export default {
                         pubKey: response.data.data.publicKey,
                         user_id: response.data.data.id,
                         prvKey: response.data.data.privateKey,
-                        area: response.data.data.area
+                        area: response.data.data.area,
+                        name: response.data.data.name
                     };
                     let userToken = {
                         token: response.data.data.token
@@ -143,7 +145,8 @@ export default {
                         pubKey: response.data.data.publicKey,
                         user_id: response.data.data.id,
                         prvKey: response.data.data.privateKey,
-                        area: response.data.data.area
+                        area: response.data.data.area,
+                        name: response.data.data.name
                     };
                     context.commit(SET_USER_DATA_MUTATION, userData);
                     localStorage.removeItem("userData");

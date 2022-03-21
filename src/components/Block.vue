@@ -2,9 +2,8 @@
   <div class="row py-5">
     <div class="col-md-6 offset-md-3">
       <div>
-        <div>
+        <div class="border-design">
           <h3>Block {{ position }}</h3>
-          <hr />
         </div>
         <form
           @submit.prevent="onSignup()"
@@ -53,25 +52,25 @@
               />
             </div>
           </div>
-                    <div class="form-group row py-3">
+          <div class="form-group row py-3">
             <label for="" class="col-sm-2 col-form-label">From</label>
             <div class="col-sm-10">
               <input
                 type="text"
                 class="form-control"
                 @keyup="updateBlock(transactionSender, sender)"
-                    v-model="sender"
+                v-model="sender"
               />
             </div>
           </div>
-              <div class="form-group row py-3">
+          <div class="form-group row py-3">
             <label for="" class="col-sm-2 col-form-label">To</label>
             <div class="col-sm-10">
               <input
                 type="text"
                 class="form-control"
                 @keyup="updateBlock(transactionReceiver, reciever)"
-                    v-model="reciever"
+                v-model="reciever"
               />
             </div>
           </div>
@@ -82,7 +81,7 @@
                 type="text"
                 class="form-control"
                 @keyup="updateBlock(transactionSignature, signature)"
-                    v-model="signature"
+                v-model="signature"
               />
             </div>
           </div>
@@ -178,5 +177,19 @@ export default {
 }
 .failure {
   background: rgb(250, 220, 220);
+}
+.border-design {
+  border: 2px black;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: white;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 </style>

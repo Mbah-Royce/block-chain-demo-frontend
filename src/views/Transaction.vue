@@ -1,5 +1,5 @@
 <template>
-  <div class="card">
+  <div class="card border-design rounded">
     <div class="card-header">
       <h4>Transaction</h4>
       <ul class="nav nav-tabs card-header-tabs">
@@ -165,4 +165,17 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.border-design{
+  border: 2px black;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: white;
+  margin-top:5px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+</style>

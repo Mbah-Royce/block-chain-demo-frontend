@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="hello border-design rounded">
     <h1>{{ msg }}</h1>
     <h4 class="">
       Working on new implementations of Blockchain Technology in the sales of
@@ -36,5 +36,15 @@ li {
 }
 a {
   color: #42b983;
+}
+.border-design{
+  border: 2px black;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: white;
+  margin-top:5px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 </style>

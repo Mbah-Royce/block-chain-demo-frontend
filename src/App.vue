@@ -6,7 +6,7 @@
     <router-link to="/about">About</router-link>
   </div> -->
   <!-- <router-view /> -->
-  <div class="container">
+  <div class="container bg">
     <div class="row">
       <div class="col-md-12">
         <div>
@@ -21,6 +21,7 @@ import { mapState } from "vuex";
 import NavigationBar from "./components/NavigationBar.vue";
 import Loader from "./components/Loader.vue";
 import { AUTO_LOGIN_ACTION } from "../src/store/storeConstants";
+// import dfdf from '../public/'
 export default {
   name: "app",
   created() {
@@ -39,6 +40,9 @@ export default {
 </script>
 
 <style>
+.bg {
+  background-image: url('../public/bg-image.jpg');
+}
 /* #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

@@ -1,13 +1,14 @@
 <template>
+<center>
   <div class="row py-5">
-    <div class="col-md-6 offset-md-3">
-      <div>
-        <h3>Welcome</h3>
+    <div class="col-md-9 border rounded border-design">
+      <div class="">
+        <h3>Welcome {{ this.user[4] }}</h3>
         <div>
           <h3>Wallet</h3>
           <hr />
         </div>
-        <form>
+        <form class="">
           <div class="form-group row py-3">
             <label for="" class="col-sm-2 col-form-label">Private Key</label>
             <div class="col-sm-10">
@@ -45,6 +46,7 @@
       </div>
     </div>
   </div>
+</center>
 </template>
 
 <script>
@@ -65,4 +67,13 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+
+.border-design{
+  border: 2px black;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: white;
+  margin-left: 12%;
+}
+
+</style>
