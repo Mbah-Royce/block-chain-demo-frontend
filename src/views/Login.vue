@@ -73,11 +73,11 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .border-design{
   border: 2px black;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   background-color: white;
-  margin-left: 12%;
+  margin-left: 25%;
 }
 </style>
