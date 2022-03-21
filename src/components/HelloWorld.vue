@@ -17,6 +17,37 @@ export default {
   name: "HelloWorld",
   props: {
     msg: String
+  },
+  data(){
+    return{
+      url: null,
+    }
+  },
+  
+  computed: {
+    listData() {
+      return this.$store.state.getData.listdata;
+    }
+  },
+
+  mounted() {
+    // this.url = this.$route.params.id !== undefined ? this.$route.params.id : this.$router.push('notFound');
+    this.url = this.$route.params.id !== undefined ? this.$route.params.id : "1";
+    this.getData();
+  },
+
+  methods:{
+    getData() {
+        console.log("getData")
+      this.$store
+        .dispatch("GetData/getData", "lastApiLink" + this.url)
+        .then(() => {
+          console.log("this.listData", this.listData);
+        })
+        .catch(err => {
+          console.log({ err: err });
+        });
+    },
   }
 };
 </script>
